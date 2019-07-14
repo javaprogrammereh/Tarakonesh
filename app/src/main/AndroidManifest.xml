@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tarakonesh">
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hesab_mali"></activity>
+        <activity android:name=".hesab_banki" />
+        <activity android:name=".tabs" />
+        <activity
+            android:name=".login"
+            android:theme="@style/firstPage" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/appName"
+            android:theme="@style/firstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="16dp">
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/img_bank"
+        android:layout_margin="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="بانک ملت"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_toLeftOf="@id/img_bank"
+        android:layout_margin="3dp"
+        android:id="@+id/txt_bank"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="61046666666666"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_toLeftOf="@id/txt_bank"
+        android:layout_margin="3dp"
+        android:id="@+id/txt_hesab"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_update"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:id="@+id/imageView_update"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete"
+        android:layout_toRightOf="@id/imageView_update"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:id="@+id/imageView_delete"/>
+</RelativeLayout>

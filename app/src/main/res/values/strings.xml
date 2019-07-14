@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tarakonesh</string>
+    <string name="appName">app name</string>
+    <string name="hazineha">مجموعه هزینه ها</string>
+    <string name="darAmadi">مجموع درآمدی</string>
+    <string name="rial">ریال</string>
+    <string name="majmokol">مجموع کل :</string>
+    <string name="tarakoneshDaramadi">تراکنش های درآمدی   </string>
+    <string name="tarakoneshHazine">تراکنش های هزینه ای</string>
+    <string name="bankAccount">حساب های بانکی     </string>
+    <string name="financialAccount">حساب های مالی       </string>
+    <string name="transaction"> گزارش </string>
+    <string name="help">راهنما</string>
+    <string name="tamas">تماس باما</string>
+    <string name="title_activity_tab">tab</string>
+    <string name="about">متن درباره ما</string>
+
+</resources>

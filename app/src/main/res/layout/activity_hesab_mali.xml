@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    tools:context=".hesab_mali">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center"
+        android:background="@color/tab3"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:theme="@style/tab3"
+        android:layoutDirection="rtl">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/financialAccount"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/withe"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نام حساب مالی : "
+        android:layoutDirection="rtl"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layoutDirection="rtl"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:hint="پرداخت قبوض"
+        android:id="@+id/edt_hesab_mali"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/spin_hesab_mali"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="14dp"
+        android:background="@color/tab3"
+        android:text="ثبت"
+        android:textColor="@color/withe"
+        android:id="@+id/ok_hesab_mali"/>
+    <ListView
+        android:id="@+id/list_view_mali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>

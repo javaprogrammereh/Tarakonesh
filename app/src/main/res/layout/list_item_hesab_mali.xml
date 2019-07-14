@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="قبض"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txt_name_mali"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هزینه"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_toLeftOf="@id/txt_name_mali"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txt_type_mali"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_update"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:id="@+id/update_mali"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete"
+        android:layout_toRightOf="@id/update_mali"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:id="@+id/delete_mali"/>
+
+</RelativeLayout>

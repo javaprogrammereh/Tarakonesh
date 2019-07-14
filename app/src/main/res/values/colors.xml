@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple">#AF0BA4</color>
+    <color name="purpleDark">#790070</color>
+    <color name="tab1dark">#DD1C64</color>
+    <color name="tab1">#F5327B</color>
+    <color name="tab2dark">#FF6F00</color>
+    <color name="tab2">#FFA215</color>
+    <color name="tab3dark">#00B86A</color>
+    <color name="tab3">#00BCD4</color>
+    <color name="withe">#ffffff</color>
+    <color name="lightPurple">#C90077</color>
+    <color name="lnr_bottom">#ADADAD</color>
+    <color name="black">#000000</color>
+</resources>
